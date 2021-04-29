@@ -3,7 +3,8 @@ class MobileMenu {
       this.DOM = {};
       this.DOM.btn = document.querySelector('.menu__button');
       this.DOM.text = document.querySelector('.menu__button--text');
-      this.DOM.menu = document.querySelector('.menu_content');
+      this.DOM.menu = document.querySelector('.menu__content');
+      this.DOM.list = document.querySelector('.menu_content--list');
       this.eventType = this._getEventType();
       this._addEvent();
   }
@@ -31,7 +32,10 @@ class MobileMenu {
   _addEvent() {
       this.DOM.btn.addEventListener(this.eventType, this._toggle.bind(this));
       this.DOM.btn.addEventListener(this.eventType, this._textChange.bind(this));
+      this.DOM.list.addEventListener(this.eventType,this._toggle.bind(this));
   }
+
+
 }
 
 // インスタンス化
