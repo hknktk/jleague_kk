@@ -4,7 +4,7 @@
 }
 
 .fz_md {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .fz_lr {
@@ -166,11 +166,8 @@ a {
 @-webkit-keyframes imgAnime {
   0% {
     opacity: 0;
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
-  }
-  50% {
-    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
   100% {
     opacity: 1;
@@ -182,11 +179,8 @@ a {
 @keyframes imgAnime {
   0% {
     opacity: 0;
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
-  }
-  50% {
-    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
   100% {
     opacity: 1;
@@ -225,8 +219,8 @@ main .comment {
 
 main .introduction {
   min-height: 40vh;
-  -webkit-box-shadow: 0px 0px 10px rgba(41, 71, 5, 0.8);
-          box-shadow: 0px 0px 10px rgba(41, 71, 5, 0.8);
+  -webkit-box-shadow: 0px 0px 10px rgba(28, 29, 27, 0.8);
+          box-shadow: 0px 0px 10px rgba(28, 29, 27, 0.8);
   margin-bottom: 64px;
 }
 
@@ -246,9 +240,7 @@ main .introduction__inner ul li {
 }
 
 main .introduction__inner ul li::before {
-  content: "\f1e3";
-  font-weight: 400;
-  font-family: "Font Awesome 5 Free";
+  content: "-";
   padding-right: 8px;
 }
 
@@ -260,6 +252,8 @@ main .introduction__inner ul li::before {
 .team__block--title {
   color: #312f2f;
   margin-bottom: 16px;
+  padding: 8px;
+  border-bottom: 2px solid #000;
 }
 
 .team__block--table {
@@ -341,16 +335,256 @@ main .introduction__inner ul li::before {
 
 .team__block--unit {
   padding-top: 70px;
+  font-family: "Rubik", "Noto Serif JP", sans-serif;
+}
+
+.team__block--unit-title.inview .char {
+  -webkit-animation-name: kf-animate-chars;
+          animation-name: kf-animate-chars;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+          animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.team__block--unit-title.inview .char:nth-child(1) {
+  -webkit-animation-delay: 0.04s;
+          animation-delay: 0.04s;
+}
+
+.team__block--unit-title.inview .char:nth-child(2) {
+  -webkit-animation-delay: 0.08s;
+          animation-delay: 0.08s;
+}
+
+.team__block--unit-title.inview .char:nth-child(3) {
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+}
+
+.team__block--unit-title.inview .char:nth-child(4) {
+  -webkit-animation-delay: 0.16s;
+          animation-delay: 0.16s;
+}
+
+.team__block--unit-title.inview .char:nth-child(5) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.team__block--unit-title.inview .char:nth-child(6) {
+  -webkit-animation-delay: 0.24s;
+          animation-delay: 0.24s;
+}
+
+.team__block--unit-title.inview .char:nth-child(7) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+}
+
+.team__block--unit-title.inview .char:nth-child(8) {
+  -webkit-animation-delay: 0.32s;
+          animation-delay: 0.32s;
+}
+
+.team__block--unit-title.inview .char:nth-child(9) {
+  -webkit-animation-delay: 0.36s;
+          animation-delay: 0.36s;
+}
+
+.team__block--unit-title.inview .char:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.team__block--unit-title.inview .char:nth-child(11) {
+  -webkit-animation-delay: 0.44s;
+          animation-delay: 0.44s;
+}
+
+.team__block--unit-title.inview .char:nth-child(12) {
+  -webkit-animation-delay: 0.48s;
+          animation-delay: 0.48s;
+}
+
+.team__block--unit-title.inview .char:nth-child(13) {
+  -webkit-animation-delay: 0.52s;
+          animation-delay: 0.52s;
+}
+
+.team__block--unit-title.inview .char:nth-child(14) {
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
+}
+
+.team__block--unit-title.inview .char:nth-child(15) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.team__block--unit-title.inview .char:nth-child(16) {
+  -webkit-animation-delay: 0.64s;
+          animation-delay: 0.64s;
+}
+
+.team__block--unit-title.inview .char:nth-child(17) {
+  -webkit-animation-delay: 0.68s;
+          animation-delay: 0.68s;
+}
+
+.team__block--unit-title.inview .char:nth-child(18) {
+  -webkit-animation-delay: 0.72s;
+          animation-delay: 0.72s;
+}
+
+.team__block--unit-title.inview .char:nth-child(19) {
+  -webkit-animation-delay: 0.76s;
+          animation-delay: 0.76s;
+}
+
+.team__block--unit-title.inview .char:nth-child(20) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.team__block--unit-title.inview .char:nth-child(21) {
+  -webkit-animation-delay: 0.84s;
+          animation-delay: 0.84s;
+}
+
+.team__block--unit-title.inview .char:nth-child(22) {
+  -webkit-animation-delay: 0.88s;
+          animation-delay: 0.88s;
+}
+
+.team__block--unit-title.inview .char:nth-child(23) {
+  -webkit-animation-delay: 0.92s;
+          animation-delay: 0.92s;
+}
+
+.team__block--unit-title.inview .char:nth-child(24) {
+  -webkit-animation-delay: 0.96s;
+          animation-delay: 0.96s;
+}
+
+.team__block--unit-title.inview .char:nth-child(25) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.team__block--unit-title.inview .char:nth-child(26) {
+  -webkit-animation-delay: 1.04s;
+          animation-delay: 1.04s;
+}
+
+.team__block--unit-title.inview .char:nth-child(27) {
+  -webkit-animation-delay: 1.08s;
+          animation-delay: 1.08s;
+}
+
+.team__block--unit-title.inview .char:nth-child(28) {
+  -webkit-animation-delay: 1.12s;
+          animation-delay: 1.12s;
+}
+
+.team__block--unit-title.inview .char:nth-child(29) {
+  -webkit-animation-delay: 1.16s;
+          animation-delay: 1.16s;
+}
+
+.team__block--unit-title.inview .char:nth-child(30) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+@-webkit-keyframes kf-animate-chars {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes kf-animate-chars {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .team__block--unit-title {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   height: 25px;
+  opacity: 0;
+}
+
+.team__block--unit-title.inview {
+  opacity: 1;
+}
+
+.team__block--unit-title.inview .char {
+  display: inline-block;
+  opacity: 1;
+}
+
+.team__block--unit-title .char {
+  opacity: 0;
 }
 
 .team__block--unit-title.red::before {
   background-color: red;
+}
+
+.team__block--unit-title.yellow::before {
+  background-color: yellow;
+}
+
+.team__block--unit-title.blue::before {
+  background-color: blue;
+}
+
+.team__block--unit-title.skyblue::before {
+  background-color: skyblue;
+}
+
+.team__block--unit-title.green::before {
+  background-color: green;
+}
+
+.team__block--unit-title.orange::before {
+  background-color: orange;
+}
+
+.team__block--unit-title.pink::before {
+  background-color: pink;
+}
+
+.team__block--unit-title.purple::before {
+  background-color: purple;
+}
+
+.team__block--unit-title.darkblue::before {
+  background-color: #2d0080;
 }
 
 .team__block--unit-title::before {
@@ -361,5 +595,49 @@ main .introduction__inner ul li::before {
   position: absolute;
   top: -3px;
   left: -8px;
+}
+
+.team__block--unit-subtitle {
+  font-style: italic;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.team__block--unit-text p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.team__block--unit-text p::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.pickup__block {
+  padding: 8px;
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+.pickup__block--title {
+  color: #312f2f;
+  margin-bottom: 16px;
+  padding: 8px;
+  border-bottom: 2px solid #000;
+}
+
+.enjoy__block {
+  padding: 8px;
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+.enjoy__block--title {
+  color: #312f2f;
+  margin-bottom: 16px;
+  padding: 8px;
+  border-bottom: 2px solid #000;
 }
 /*# sourceMappingURL=style.css.map */

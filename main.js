@@ -40,3 +40,17 @@ class MobileMenu {
 
 // インスタンス化
 new MobileMenu();
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  const cb = function (el, isIntersecting) {
+      if(isIntersecting) {
+          const ta = new TextAnimation(el);
+          ta.animate();
+      }
+  }
+
+  const so = new ScrollObserver('.team__block--unit-title', cb);
+});
