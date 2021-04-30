@@ -53,4 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   const so = new ScrollObserver('.team__block--unit-title', cb);
+
+  const so1 = new ScrollObserver('.youngplayer-name', cb);
+
+  const so2 = new ScrollObserver('.veteranplayer-name', cb);
+
 });

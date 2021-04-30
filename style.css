@@ -273,15 +273,14 @@ main .introduction__inner ul li::before {
 .team__block--table li {
   list-style: none;
   width: 45%;
-  height: 25px;
   border: 1px solid #312f2f;
   text-align: center;
-  margin-bottom: 8px;
+  padding: 8px;
+  margin-bottom: 16px;
 }
 
 .team__block--table li a {
   position: relative;
-  line-height: 25px;
   color: #312f2f;
 }
 
@@ -341,8 +340,8 @@ main .introduction__inner ul li::before {
 .team__block--unit-title.inview .char {
   -webkit-animation-name: kf-animate-chars;
           animation-name: kf-animate-chars;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
   -webkit-animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
           animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
   -webkit-animation-delay: 0s;
@@ -356,153 +355,153 @@ main .introduction__inner ul li::before {
 }
 
 .team__block--unit-title.inview .char:nth-child(1) {
-  -webkit-animation-delay: 0.04s;
-          animation-delay: 0.04s;
+  -webkit-animation-delay: 0.07s;
+          animation-delay: 0.07s;
 }
 
 .team__block--unit-title.inview .char:nth-child(2) {
-  -webkit-animation-delay: 0.08s;
-          animation-delay: 0.08s;
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
 }
 
 .team__block--unit-title.inview .char:nth-child(3) {
-  -webkit-animation-delay: 0.12s;
-          animation-delay: 0.12s;
+  -webkit-animation-delay: 0.21s;
+          animation-delay: 0.21s;
 }
 
 .team__block--unit-title.inview .char:nth-child(4) {
-  -webkit-animation-delay: 0.16s;
-          animation-delay: 0.16s;
-}
-
-.team__block--unit-title.inview .char:nth-child(5) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
-}
-
-.team__block--unit-title.inview .char:nth-child(6) {
-  -webkit-animation-delay: 0.24s;
-          animation-delay: 0.24s;
-}
-
-.team__block--unit-title.inview .char:nth-child(7) {
   -webkit-animation-delay: 0.28s;
           animation-delay: 0.28s;
 }
 
+.team__block--unit-title.inview .char:nth-child(5) {
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+
+.team__block--unit-title.inview .char:nth-child(6) {
+  -webkit-animation-delay: 0.42s;
+          animation-delay: 0.42s;
+}
+
+.team__block--unit-title.inview .char:nth-child(7) {
+  -webkit-animation-delay: 0.49s;
+          animation-delay: 0.49s;
+}
+
 .team__block--unit-title.inview .char:nth-child(8) {
-  -webkit-animation-delay: 0.32s;
-          animation-delay: 0.32s;
-}
-
-.team__block--unit-title.inview .char:nth-child(9) {
-  -webkit-animation-delay: 0.36s;
-          animation-delay: 0.36s;
-}
-
-.team__block--unit-title.inview .char:nth-child(10) {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-}
-
-.team__block--unit-title.inview .char:nth-child(11) {
-  -webkit-animation-delay: 0.44s;
-          animation-delay: 0.44s;
-}
-
-.team__block--unit-title.inview .char:nth-child(12) {
-  -webkit-animation-delay: 0.48s;
-          animation-delay: 0.48s;
-}
-
-.team__block--unit-title.inview .char:nth-child(13) {
-  -webkit-animation-delay: 0.52s;
-          animation-delay: 0.52s;
-}
-
-.team__block--unit-title.inview .char:nth-child(14) {
   -webkit-animation-delay: 0.56s;
           animation-delay: 0.56s;
 }
 
-.team__block--unit-title.inview .char:nth-child(15) {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+.team__block--unit-title.inview .char:nth-child(9) {
+  -webkit-animation-delay: 0.63s;
+          animation-delay: 0.63s;
 }
 
-.team__block--unit-title.inview .char:nth-child(16) {
-  -webkit-animation-delay: 0.64s;
-          animation-delay: 0.64s;
+.team__block--unit-title.inview .char:nth-child(10) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
 }
 
-.team__block--unit-title.inview .char:nth-child(17) {
-  -webkit-animation-delay: 0.68s;
-          animation-delay: 0.68s;
+.team__block--unit-title.inview .char:nth-child(11) {
+  -webkit-animation-delay: 0.77s;
+          animation-delay: 0.77s;
 }
 
-.team__block--unit-title.inview .char:nth-child(18) {
-  -webkit-animation-delay: 0.72s;
-          animation-delay: 0.72s;
-}
-
-.team__block--unit-title.inview .char:nth-child(19) {
-  -webkit-animation-delay: 0.76s;
-          animation-delay: 0.76s;
-}
-
-.team__block--unit-title.inview .char:nth-child(20) {
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
-}
-
-.team__block--unit-title.inview .char:nth-child(21) {
+.team__block--unit-title.inview .char:nth-child(12) {
   -webkit-animation-delay: 0.84s;
           animation-delay: 0.84s;
 }
 
-.team__block--unit-title.inview .char:nth-child(22) {
-  -webkit-animation-delay: 0.88s;
-          animation-delay: 0.88s;
+.team__block--unit-title.inview .char:nth-child(13) {
+  -webkit-animation-delay: 0.91s;
+          animation-delay: 0.91s;
 }
 
-.team__block--unit-title.inview .char:nth-child(23) {
-  -webkit-animation-delay: 0.92s;
-          animation-delay: 0.92s;
+.team__block--unit-title.inview .char:nth-child(14) {
+  -webkit-animation-delay: 0.98s;
+          animation-delay: 0.98s;
 }
 
-.team__block--unit-title.inview .char:nth-child(24) {
-  -webkit-animation-delay: 0.96s;
-          animation-delay: 0.96s;
+.team__block--unit-title.inview .char:nth-child(15) {
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s;
 }
 
-.team__block--unit-title.inview .char:nth-child(25) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-.team__block--unit-title.inview .char:nth-child(26) {
-  -webkit-animation-delay: 1.04s;
-          animation-delay: 1.04s;
-}
-
-.team__block--unit-title.inview .char:nth-child(27) {
-  -webkit-animation-delay: 1.08s;
-          animation-delay: 1.08s;
-}
-
-.team__block--unit-title.inview .char:nth-child(28) {
+.team__block--unit-title.inview .char:nth-child(16) {
   -webkit-animation-delay: 1.12s;
           animation-delay: 1.12s;
 }
 
+.team__block--unit-title.inview .char:nth-child(17) {
+  -webkit-animation-delay: 1.19s;
+          animation-delay: 1.19s;
+}
+
+.team__block--unit-title.inview .char:nth-child(18) {
+  -webkit-animation-delay: 1.26s;
+          animation-delay: 1.26s;
+}
+
+.team__block--unit-title.inview .char:nth-child(19) {
+  -webkit-animation-delay: 1.33s;
+          animation-delay: 1.33s;
+}
+
+.team__block--unit-title.inview .char:nth-child(20) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.team__block--unit-title.inview .char:nth-child(21) {
+  -webkit-animation-delay: 1.47s;
+          animation-delay: 1.47s;
+}
+
+.team__block--unit-title.inview .char:nth-child(22) {
+  -webkit-animation-delay: 1.54s;
+          animation-delay: 1.54s;
+}
+
+.team__block--unit-title.inview .char:nth-child(23) {
+  -webkit-animation-delay: 1.61s;
+          animation-delay: 1.61s;
+}
+
+.team__block--unit-title.inview .char:nth-child(24) {
+  -webkit-animation-delay: 1.68s;
+          animation-delay: 1.68s;
+}
+
+.team__block--unit-title.inview .char:nth-child(25) {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+.team__block--unit-title.inview .char:nth-child(26) {
+  -webkit-animation-delay: 1.82s;
+          animation-delay: 1.82s;
+}
+
+.team__block--unit-title.inview .char:nth-child(27) {
+  -webkit-animation-delay: 1.89s;
+          animation-delay: 1.89s;
+}
+
+.team__block--unit-title.inview .char:nth-child(28) {
+  -webkit-animation-delay: 1.96s;
+          animation-delay: 1.96s;
+}
+
 .team__block--unit-title.inview .char:nth-child(29) {
-  -webkit-animation-delay: 1.16s;
-          animation-delay: 1.16s;
+  -webkit-animation-delay: 2.03s;
+          animation-delay: 2.03s;
 }
 
 .team__block--unit-title.inview .char:nth-child(30) {
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
 }
 
 @-webkit-keyframes kf-animate-chars {
@@ -623,9 +622,445 @@ main .introduction__inner ul li::before {
 
 .pickup__block--title {
   color: #312f2f;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   padding: 8px;
   border-bottom: 2px solid #000;
+}
+
+.pickup__block--young-title {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.pickup__block--young-title::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 25px;
+  position: absolute;
+  top: -3px;
+  left: -8px;
+  background-color: #db4949;
+}
+
+.pickup__block--unit {
+  padding: 8px;
+}
+
+.pickup__block--unit .youngplayer-name {
+  font-weight: 700;
+  color: #db4949;
+  margin-bottom: 16px;
+  opacity: 0;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char {
+  -webkit-animation-name: kf-animate-chars;
+          animation-name: kf-animate-chars;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+          animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(1) {
+  -webkit-animation-delay: 0.07s;
+          animation-delay: 0.07s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(2) {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(3) {
+  -webkit-animation-delay: 0.21s;
+          animation-delay: 0.21s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(4) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(5) {
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(6) {
+  -webkit-animation-delay: 0.42s;
+          animation-delay: 0.42s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(7) {
+  -webkit-animation-delay: 0.49s;
+          animation-delay: 0.49s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(8) {
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(9) {
+  -webkit-animation-delay: 0.63s;
+          animation-delay: 0.63s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(10) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(11) {
+  -webkit-animation-delay: 0.77s;
+          animation-delay: 0.77s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(12) {
+  -webkit-animation-delay: 0.84s;
+          animation-delay: 0.84s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(13) {
+  -webkit-animation-delay: 0.91s;
+          animation-delay: 0.91s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(14) {
+  -webkit-animation-delay: 0.98s;
+          animation-delay: 0.98s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(15) {
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(16) {
+  -webkit-animation-delay: 1.12s;
+          animation-delay: 1.12s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(17) {
+  -webkit-animation-delay: 1.19s;
+          animation-delay: 1.19s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(18) {
+  -webkit-animation-delay: 1.26s;
+          animation-delay: 1.26s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(19) {
+  -webkit-animation-delay: 1.33s;
+          animation-delay: 1.33s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(20) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(21) {
+  -webkit-animation-delay: 1.47s;
+          animation-delay: 1.47s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(22) {
+  -webkit-animation-delay: 1.54s;
+          animation-delay: 1.54s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(23) {
+  -webkit-animation-delay: 1.61s;
+          animation-delay: 1.61s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(24) {
+  -webkit-animation-delay: 1.68s;
+          animation-delay: 1.68s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(25) {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(26) {
+  -webkit-animation-delay: 1.82s;
+          animation-delay: 1.82s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(27) {
+  -webkit-animation-delay: 1.89s;
+          animation-delay: 1.89s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(28) {
+  -webkit-animation-delay: 1.96s;
+          animation-delay: 1.96s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(29) {
+  -webkit-animation-delay: 2.03s;
+          animation-delay: 2.03s;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char:nth-child(30) {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+
+.pickup__block--unit .youngplayer-name.inview {
+  opacity: 1;
+}
+
+.pickup__block--unit .youngplayer-name.inview .char {
+  display: inline-block;
+  opacity: 1;
+}
+
+.pickup__block--unit .youngplayer-name .char {
+  opacity: 0;
+}
+
+.pickup__block--unit li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+.pickup__block--unit li::before {
+  content: "-";
+  margin-right: 8px;
+}
+
+.pickup__block--veteran-title {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.pickup__block--veteran-title::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 25px;
+  position: absolute;
+  top: -3px;
+  left: -8px;
+  background-color: #5849db;
+}
+
+.pickup__block--unit {
+  padding: 8px;
+}
+
+.pickup__block--unit .veteranplayer-name {
+  font-weight: 700;
+  color: #5849db;
+  margin-bottom: 16px;
+  opacity: 0;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char {
+  -webkit-animation-name: kf-animate-chars;
+          animation-name: kf-animate-chars;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+          animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(1) {
+  -webkit-animation-delay: 0.07s;
+          animation-delay: 0.07s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(2) {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(3) {
+  -webkit-animation-delay: 0.21s;
+          animation-delay: 0.21s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(4) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(5) {
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(6) {
+  -webkit-animation-delay: 0.42s;
+          animation-delay: 0.42s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(7) {
+  -webkit-animation-delay: 0.49s;
+          animation-delay: 0.49s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(8) {
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(9) {
+  -webkit-animation-delay: 0.63s;
+          animation-delay: 0.63s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(10) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(11) {
+  -webkit-animation-delay: 0.77s;
+          animation-delay: 0.77s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(12) {
+  -webkit-animation-delay: 0.84s;
+          animation-delay: 0.84s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(13) {
+  -webkit-animation-delay: 0.91s;
+          animation-delay: 0.91s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(14) {
+  -webkit-animation-delay: 0.98s;
+          animation-delay: 0.98s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(15) {
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(16) {
+  -webkit-animation-delay: 1.12s;
+          animation-delay: 1.12s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(17) {
+  -webkit-animation-delay: 1.19s;
+          animation-delay: 1.19s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(18) {
+  -webkit-animation-delay: 1.26s;
+          animation-delay: 1.26s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(19) {
+  -webkit-animation-delay: 1.33s;
+          animation-delay: 1.33s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(20) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(21) {
+  -webkit-animation-delay: 1.47s;
+          animation-delay: 1.47s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(22) {
+  -webkit-animation-delay: 1.54s;
+          animation-delay: 1.54s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(23) {
+  -webkit-animation-delay: 1.61s;
+          animation-delay: 1.61s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(24) {
+  -webkit-animation-delay: 1.68s;
+          animation-delay: 1.68s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(25) {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(26) {
+  -webkit-animation-delay: 1.82s;
+          animation-delay: 1.82s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(27) {
+  -webkit-animation-delay: 1.89s;
+          animation-delay: 1.89s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(28) {
+  -webkit-animation-delay: 1.96s;
+          animation-delay: 1.96s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(29) {
+  -webkit-animation-delay: 2.03s;
+          animation-delay: 2.03s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char:nth-child(30) {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+
+.pickup__block--unit .veteranplayer-name.inview {
+  opacity: 1;
+}
+
+.pickup__block--unit .veteranplayer-name.inview .char {
+  display: inline-block;
+  opacity: 1;
+}
+
+.pickup__block--unit .veteranplayer-name .char {
+  opacity: 0;
+}
+
+.pickup__block--unit li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+.pickup__block--unit li::before {
+  content: "-";
+  margin-right: 8px;
 }
 
 .enjoy__block {
