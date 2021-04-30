@@ -645,6 +645,7 @@ main .introduction__inner ul li::before {
 
 .pickup__block--unit {
   padding: 8px;
+  margin-bottom: 32px;
 }
 
 .pickup__block--unit .youngplayer-name {
@@ -863,6 +864,7 @@ main .introduction__inner ul li::before {
 
 .pickup__block--unit {
   padding: 8px;
+  margin-bottom: 32px;
 }
 
 .pickup__block--unit .veteranplayer-name {
