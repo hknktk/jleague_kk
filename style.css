@@ -287,54 +287,53 @@ main .introduction__inner ul li::before {
 .team__block--table li a::after {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -4px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   display: block;
-  width: 50px;
-  height: 2px;
+  width: 25px;
+  height: 3px;
 }
 
 .team__block--table li a.red::after {
-  background-color: red;
+  background-color: #f10f0f;
 }
 
 .team__block--table li a.yellow::after {
-  background-color: yellow;
+  background-color: #fdea3b;
 }
 
 .team__block--table li a.blue::after {
-  background-color: blue;
+  background-color: #195be9;
 }
 
 .team__block--table li a.skyblue::after {
-  background-color: skyblue;
+  background-color: #3acff5;
 }
 
 .team__block--table li a.green::after {
-  background-color: green;
+  background-color: #59f53a;
 }
 
 .team__block--table li a.orange::after {
-  background-color: orange;
+  background-color: #ff9a57;
 }
 
 .team__block--table li a.pink::after {
-  background-color: pink;
+  background-color: #ffb7df;
 }
 
 .team__block--table li a.purple::after {
-  background-color: purple;
+  background-color: #ab0db1;
 }
 
 .team__block--table li a.darkblue::after {
-  background-color: #2d0080;
+  background-color: #0e0955;
 }
 
 .team__block--unit {
   padding-top: 70px;
-  font-family: "Rubik", "Noto Serif JP", sans-serif;
 }
 
 .team__block--unit-title.inview .char {
@@ -535,6 +534,7 @@ main .introduction__inner ul li::before {
   margin-bottom: 16px;
   height: 25px;
   opacity: 0;
+  font-family: "Rubik", "Noto Serif JP", sans-serif;
 }
 
 .team__block--unit-title.inview {
@@ -551,39 +551,39 @@ main .introduction__inner ul li::before {
 }
 
 .team__block--unit-title.red::before {
-  background-color: red;
+  background-color: #f10f0f;
 }
 
 .team__block--unit-title.yellow::before {
-  background-color: yellow;
+  background-color: #fdea3b;
 }
 
 .team__block--unit-title.blue::before {
-  background-color: blue;
+  background-color: #195be9;
 }
 
 .team__block--unit-title.skyblue::before {
-  background-color: skyblue;
+  background-color: #3acff5;
 }
 
 .team__block--unit-title.green::before {
-  background-color: green;
+  background-color: #59f53a;
 }
 
 .team__block--unit-title.orange::before {
-  background-color: orange;
+  background-color: #ff9a57;
 }
 
 .team__block--unit-title.pink::before {
-  background-color: pink;
+  background-color: #ffb7df;
 }
 
 .team__block--unit-title.purple::before {
-  background-color: purple;
+  background-color: #ab0db1;
 }
 
 .team__block--unit-title.darkblue::before {
-  background-color: #2d0080;
+  background-color: #0e0955;
 }
 
 .team__block--unit-title::before {
@@ -601,6 +601,7 @@ main .introduction__inner ul li::before {
   margin: 0 auto;
   margin-bottom: 16px;
   font-weight: 700;
+  font-family: "Rubik", "Noto Serif JP", sans-serif;
 }
 
 .team__block--unit-text p {
@@ -653,6 +654,7 @@ main .introduction__inner ul li::before {
   color: #db4949;
   margin-bottom: 16px;
   opacity: 0;
+  font-family: "Rubik", "Noto Serif JP", sans-serif;
 }
 
 .pickup__block--unit .youngplayer-name.inview .char {
