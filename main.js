@@ -58,4 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const so2 = new ScrollObserver('.veteranplayer-name', cb);
 
+  const so3 = new ScrollObserver('.foreigner-name', cb);
+
 });
+
