@@ -62,3 +62,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  const cb = function (el, isIntersecting) {
+      if(isIntersecting) {
+          el.classList.toggle('inview');
+      }
+  }
+
+  const so4 = new ScrollObserver('.player-picture', cb);
+  
+});
