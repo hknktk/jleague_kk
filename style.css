@@ -292,6 +292,10 @@ main .introduction__inner ul li span a {
   padding: 4px;
 }
 
+main .introduction__inner ul li .arrow_right {
+  font-size: 1.2rem;
+}
+
 .team__block {
   padding: 8px;
   padding-top: 80px;
@@ -321,62 +325,66 @@ main .introduction__inner ul li span a {
 .team__block--table li {
   list-style: none;
   width: 45%;
-  border: 1px solid #312f2f;
+  height: 35px;
+  line-height: 35px;
   text-align: center;
-  padding: 8px;
+  padding: 0px 8px;
   margin-bottom: 16px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 5px #252121;
+          box-shadow: 0px 0px 5px #252121;
+  cursor: pointer;
 }
 
 .team__block--table li a {
-  position: relative;
   color: #312f2f;
 }
 
-.team__block--table li a::after {
+.team__block--table li a::before {
   content: "";
   position: absolute;
-  bottom: -4px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  display: block;
-  width: 25px;
-  height: 3px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 5%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
 
-.team__block--table li a.red::after {
+.team__block--table li a.red::before {
   background-color: #f10f0f;
 }
 
-.team__block--table li a.yellow::after {
+.team__block--table li a.yellow::before {
   background-color: #fdea3b;
 }
 
-.team__block--table li a.blue::after {
+.team__block--table li a.blue::before {
   background-color: #195be9;
 }
 
-.team__block--table li a.skyblue::after {
+.team__block--table li a.skyblue::before {
   background-color: #3acff5;
 }
 
-.team__block--table li a.green::after {
+.team__block--table li a.green::before {
   background-color: #59f53a;
 }
 
-.team__block--table li a.orange::after {
+.team__block--table li a.orange::before {
   background-color: #ff9a57;
 }
 
-.team__block--table li a.pink::after {
+.team__block--table li a.pink::before {
   background-color: #ffb7df;
 }
 
-.team__block--table li a.purple::after {
+.team__block--table li a.purple::before {
   background-color: #ab0db1;
 }
 
-.team__block--table li a.darkblue::after {
+.team__block--table li a.darkblue::before {
   background-color: #0e0955;
 }
 
@@ -713,10 +721,10 @@ main .introduction__inner ul li span a {
           transform-origin: center;
   -webkit-transform: translateX(-80%);
           transform: translateX(-80%);
-  -webkit-transition: opacity .5s,-webkit-transform 2s;
-  transition: opacity .5s,-webkit-transform 2s;
-  transition: opacity .5s,transform 2s;
-  transition: opacity .5s,transform 2s,-webkit-transform 2s;
+  -webkit-transition: opacity .2s,-webkit-transform 1.2s;
+  transition: opacity .2s,-webkit-transform 1.2s;
+  transition: opacity .2s,transform 1.2s;
+  transition: opacity .2s,transform 1.2s,-webkit-transform 1.2s;
 }
 
 .pickup__block--unit .player-picture.inview img {
