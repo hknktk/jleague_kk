@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&family=Rubik:ital,wght@1,500&display=swap");
 .fz_sm {
   font-size: 1.4rem;
@@ -76,6 +77,12 @@ a {
   border-left: 1px solid #312f2f;
   border-bottom: 1px solid #312f2f;
   z-index: 100;
+}
+
+@media screen and (min-width: 1000px) {
+  .menu__button {
+    display: none;
+  }
 }
 
 .menu__button.active span:nth-child(1) {
@@ -211,6 +218,13 @@ main .hero-img {
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 1000px) {
+  main .hero-img {
+    height: 500px;
+    width: 50%;
+  }
+}
+
 main .hero-img img {
   width: 100%;
   height: 100%;
@@ -232,6 +246,15 @@ main .introduction {
   -webkit-box-shadow: 0px 0px 10px rgba(28, 29, 27, 0.8);
           box-shadow: 0px 0px 10px rgba(28, 29, 27, 0.8);
   margin-bottom: 64px;
+}
+
+@media screen and (min-width: 1000px) {
+  main .introduction {
+    position: absolute;
+    right: 5%;
+    top: 80px;
+    width: 30%;
+  }
 }
 
 main .introduction__title {
@@ -334,6 +357,14 @@ main .introduction__inner ul li .arrow_right {
   -webkit-box-shadow: 0px 0px 5px #252121;
           box-shadow: 0px 0px 5px #252121;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .team__block--table li {
+    width: 22%;
+    height: 40px;
+    line-height: 40px;
+  }
 }
 
 .team__block--table li a {
@@ -591,6 +622,7 @@ main .introduction__inner ul li .arrow_right {
   height: 25px;
   opacity: 0;
   font-family: "Rubik", "Noto Serif JP", sans-serif;
+  font-weight: 800;
 }
 
 .team__block--unit-title.inview {
@@ -656,8 +688,9 @@ main .introduction__inner ul li .arrow_right {
   font-style: italic;
   margin: 0 auto;
   margin-bottom: 16px;
-  font-weight: 700;
+  font-weight: 800;
   font-family: "Rubik", "Noto Serif JP", sans-serif;
+  color: #f10f0f;
 }
 
 .team__block--unit-text p {
@@ -925,6 +958,15 @@ main .introduction__inner ul li .arrow_right {
   margin-bottom: 8px;
   line-height: 1.5;
   font-size: 1.4rem;
+}
+
+.pickup__block--unit li span {
+  color: #ff9a57;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin: 0px 2px;
+  font-weight: 600;
+  font-family: "Rubik", "Noto Serif JP", sans-serif;
 }
 
 .pickup__block--unit li::before {
@@ -1378,8 +1420,66 @@ main .introduction__inner ul li .arrow_right {
 
 .enjoy__block--title {
   color: #312f2f;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   padding: 8px;
   border-bottom: 2px solid #000;
+}
+
+.enjoy__block--unit-title {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  color: #f10f0f;
+  font-weight: 700;
+}
+
+.enjoy__block--unit-title.first_title::before {
+  content: "１";
+}
+
+.enjoy__block--unit-title.second_title::before {
+  content: "２";
+}
+
+.enjoy__block--unit-title.third_title::before {
+  content: "３";
+}
+
+.enjoy__block--unit-title.fourth_title::before {
+  content: "４";
+}
+
+.enjoy__block--unit-title::before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -10%;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.enjoy__block--unit {
+  margin-bottom: 64px;
+}
+
+.enjoy__block--unit-text p {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.enjoy__block--unit-text p span {
+  font-size: 1.5rem;
+  color: #ff9a57;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0px 2px;
+}
+
+.enjoy__block--unit-text p::before {
+  content: "-";
+  margin-right: 8px;
 }
 /*# sourceMappingURL=style.css.map */
