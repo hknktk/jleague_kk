@@ -331,6 +331,18 @@ main .introduction__inner ul li .arrow_right {
   border-bottom: 2px solid #000;
 }
 
+@media screen and (min-width: 600px) {
+  .team__block--title {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team__block--title {
+    font-size: 3rem;
+  }
+}
+
 .team__block--table {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,6 +381,19 @@ main .introduction__inner ul li .arrow_right {
 
 .team__block--table li a {
   color: #312f2f;
+}
+
+@media screen and (min-width: 600px) {
+  .team__block--table li a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team__block--table li a {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
 }
 
 .team__block--table li a::before {
@@ -625,6 +650,18 @@ main .introduction__inner ul li .arrow_right {
   font-weight: 800;
 }
 
+@media screen and (min-width: 600px) {
+  .team__block--unit-title {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team__block--unit-title {
+    font-size: 3rem;
+  }
+}
+
 .team__block--unit-title.inview {
   opacity: 1;
 }
@@ -693,10 +730,35 @@ main .introduction__inner ul li .arrow_right {
   color: #f10f0f;
 }
 
+@media screen and (min-width: 600px) {
+  .team__block--unit-subtitle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team__block--unit-subtitle {
+    font-size: 2.2rem;
+    line-height: 2;
+  }
+}
+
 .team__block--unit-text p {
   font-size: 1.4rem;
   line-height: 1.5;
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 600px) {
+  .team__block--unit-text p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team__block--unit-text p {
+    font-size: 1.7rem;
+  }
 }
 
 .team__block--unit-text p::before {
@@ -715,6 +777,12 @@ main .introduction__inner ul li .arrow_right {
   margin-bottom: 24px;
   padding: 8px;
   border-bottom: 2px solid #000;
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--title {
+    font-size: 3rem;
+  }
 }
 
 .pickup__block--young-title {
@@ -738,12 +806,36 @@ main .introduction__inner ul li .arrow_right {
   margin-bottom: 32px;
 }
 
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit {
+    margin-bottom: 800px;
+  }
+}
+
 .pickup__block--unit .player-picture {
   width: 85%;
   height: 200px;
   margin: 0 auto;
   margin-bottom: 4px;
   overflow: hidden;
+}
+
+@media screen and (min-width: 600px) {
+  .pickup__block--unit .player-picture {
+    width: 80%;
+    margin: 0;
+    margin-bottom: 8px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit .player-picture {
+    width: 60%;
+    margin: 0;
+    margin-bottom: 8px;
+    height: 400px;
+  }
 }
 
 .pickup__block--unit .player-picture img {
@@ -772,6 +864,18 @@ main .introduction__inner ul li .arrow_right {
   margin-bottom: 16px;
   opacity: 0;
   font-family: "Rubik", "Noto Serif JP", sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .pickup__block--unit .youngplayer-name {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit .youngplayer-name {
+    font-size: 3rem;
+  }
 }
 
 .pickup__block--unit .youngplayer-name.inview .char {
@@ -954,6 +1058,12 @@ main .introduction__inner ul li .arrow_right {
   opacity: 0;
 }
 
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit ul {
+    margin-bottom: 24px;
+  }
+}
+
 .pickup__block--unit li {
   margin-bottom: 8px;
   line-height: 1.5;
@@ -967,6 +1077,18 @@ main .introduction__inner ul li .arrow_right {
   margin: 0px 2px;
   font-weight: 600;
   font-family: "Rubik", "Noto Serif JP", sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .pickup__block--unit li span {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit li span {
+    font-size: 2.5rem;
+  }
 }
 
 .pickup__block--unit li::before {
@@ -1000,6 +1122,12 @@ main .introduction__inner ul li .arrow_right {
   color: #5849db;
   margin-bottom: 16px;
   opacity: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit .veteranplayer-name {
+    font-size: 3rem;
+  }
 }
 
 .pickup__block--unit .veteranplayer-name.inview .char {
@@ -1188,6 +1316,18 @@ main .introduction__inner ul li .arrow_right {
   font-size: 1.4rem;
 }
 
+@media screen and (min-width: 600px) {
+  .pickup__block--unit li {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit li {
+    font-size: 2.2rem;
+  }
+}
+
 .pickup__block--unit li::before {
   content: "-";
   margin-right: 8px;
@@ -1219,6 +1359,12 @@ main .introduction__inner ul li .arrow_right {
   color: #f11f10;
   margin-bottom: 16px;
   opacity: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit .foreigner-name {
+    font-size: 3rem;
+  }
 }
 
 .pickup__block--unit .foreigner-name.inview .char {
@@ -1405,6 +1551,18 @@ main .introduction__inner ul li .arrow_right {
   margin-bottom: 8px;
   line-height: 1.5;
   font-size: 1.4rem;
+}
+
+@media screen and (min-width: 600px) {
+  .pickup__block--unit li {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pickup__block--unit li {
+    font-size: 2rem;
+  }
 }
 
 .pickup__block--unit li::before {
